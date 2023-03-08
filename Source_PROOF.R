@@ -255,7 +255,7 @@ PROOF <- function (data,
                    total.only = F,
                    total.score = "TOTAL"){
   
-  # Determines whether patient i wins from patient j
+  # Determines each patients rank, with or without prioritizing survival, and compares rank differences between groups
   #
   # Args:
   #. data = patient data with preferences and outcomes
